@@ -1,0 +1,36 @@
+section.categories{
+  padding: 60px 0;
+  background-color: #fff;
+  min-height: 341px;
+  .categories__title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 56px;
+  }
+  .categories__wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap:35px;
+    flex-wrap: wrap;
+  }
+  .category__item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    .category__img{
+      width: 88px;
+      height: 88px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    h3{
+      margin-top: 20px;
+      font-size: 22px;
+      font-weight: 500;
+      text-transform: capitalize;
+    }
+  }
+}
